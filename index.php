@@ -83,7 +83,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         <!-- START FORM -->
         
         <div class="container">
-            <h1 class="text-center font upper">contact us</h1>
+            <h1 class="text-center font upper">Contact Form</h1>
             <form class="form" action="<?= $_SERVER['PHP_SELF']?>" method="post">
                 
                     <?php 
