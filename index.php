@@ -34,11 +34,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $headers = "From: " . $email . "\r\n";
     
     if(empty($errorArray)) {
-        $myEmail = 'mohamedfekyelfeky@gmail.com';
+        $myEmail = 'Alsmh.Ahmed@gmail.com';
         $subject = 'contact';
         $mailMsg = $msg . '<br>' . ' The phone is : ' . $phone . '<br>' . 'the name : ' . $user; 
         
-        mail("mohamedfekyelfeky@gmail.com","an order",$validmsg,$headers);
+        mail("Alsmh.Ahmed@gmail.com","an order",$validmsg,$headers);
         
         echo ' ';
         
